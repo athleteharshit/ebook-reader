@@ -7,7 +7,7 @@ import { useStateValue } from "../StateProvider";
 const Library = () => {
   const [{ basket }] = useStateValue();
   // console.log(basket);
-  // const add = basket[0];
+  // const add = basket[0].id;
   // console.log(add);
 
   return (

@@ -12,9 +12,8 @@ const LibraryBook = ({ id, img, publisher }) => {
       type: "REMOVE_FROM_BASKET",
       id: id,
     })
-    console.log("remove")
+    // console.log("remove")
   };
-
   return (
     <div className="library_item">
       <div className="library_img">

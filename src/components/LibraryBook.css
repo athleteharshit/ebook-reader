@@ -44,7 +44,7 @@
 }
 
 .library_book .library_item:hover {
-    transform: scale(1.03);
+    transform: scale(1.06);
 }
 
 .library_book .library_img {
@@ -62,7 +62,7 @@
 }
 
 .library_book .library_book_btn {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 100%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -72,6 +72,7 @@
     padding-top: .2rem;
     padding-bottom: .2rem;
     transition: all 450ms;
+    border-radius: 1rem;
 }
 
 .library_book .library_book_btn:hover {
@@ -84,4 +85,3 @@
     width: 100%;
     display: inline-block;
 }
-

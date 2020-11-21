@@ -19,27 +19,24 @@ const Book = ({ id, img, publisher, book }) => {
       }
     });
 
-    console.log("add to basket");
+    // console.log("add to basket");
     // console.log(id);
   };
   return (
     <>
-        <div className="book_item">
-          <div className="book_img">
-            <Link to="/reading" className="book_link">
-              <img id={id} src={img} alt={publisher} />
-            </Link>
-            {/* <img id={id} src={img} alt={publisher}/> */}
-          </div>
-          <div className="book_btn">
-            <Link
-              className="row_btn"
-              onClick={addToBasket}
-            >
-              Add to Library
-            </Link>
-          </div>
+      <div className="book_item">
+        <div className="book_img">
+          <Link to="/reading" className="book_link">
+            <img id={id} src={img} alt={publisher} />
+          </Link>
+          {/* <img id={id} src={img} alt={publisher}/> */}
         </div>
+        <div className="book_btn">
+          <Link className="row_btn" onClick={addToBasket}>
+            Add to Library
+          </Link>
+        </div>
+      </div>
     </>
   );
 };

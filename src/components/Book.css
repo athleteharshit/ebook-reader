@@ -22,7 +22,7 @@
 }
 
 .book .book_item:hover {
-    transform: scale(1.03);
+    transform: scale(1.06);
 }
 
 .book .book_img {
@@ -40,7 +40,7 @@
 }
 
 .book .book_btn {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 100%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -50,6 +50,7 @@
     padding-top: .2rem;
     padding-bottom: .2rem;
     transition: all 450ms;
+    border-radius: 1rem;
 }
 
 .book .book_btn:hover {

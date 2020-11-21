@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Book from "./Book";
 import axios from "axios";
 
-const Row = ({ title, fetchUrl }) => {
+const Row = ({fetchUrl }) => {
   const [book, setBook] = useState();
 
   useEffect(() => {
@@ -16,7 +16,8 @@ const Row = ({ title, fetchUrl }) => {
       return request;
     }
     fetchData();
-  }, [fetchUrl]);
+  },[fetchUrl]);
+  // console.log("render")
 
   return (
     <>

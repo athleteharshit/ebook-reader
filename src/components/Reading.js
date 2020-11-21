@@ -16,7 +16,7 @@ const Reading = () => {
     DEMO_NAME = basket[0]?.book?.volumeInfo?.title;
   }
 
-  console.log(basket);
+  // console.log(basket);
   return (
     <div style={{ position: "relative", height: "100%" }}>
       {/* // * Container needs a height.. */}

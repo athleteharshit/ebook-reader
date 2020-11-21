@@ -38,3 +38,13 @@
     font-family: 'Lora', serif;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 400px) {
+    .header_text .header_heading {
+      font-size: 2.8rem;
+    }
+
+    .header_text .header_subheading {
+        font-size: 1.9rem;
+    }
+  }

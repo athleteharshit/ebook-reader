@@ -37,12 +37,12 @@ a {
 
 @media only screen and (max-width: 520px) {
   html {
-    font-size: 45%;
+    font-size: 55%;
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 320px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 }
