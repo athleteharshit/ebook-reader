@@ -1,0 +1,23 @@
+ #setting {
+    /* overflow: hidden; */
+    margin-top: .5rem;
+}
+
+/* #setting .makeStyles-root-2 {
+
+} */
+
+#setting .MuiList-root {
+    width: 100vw;
+}
+
+#setting .MuiSvgIcon-root {
+    font-size: 3rem;
+    color: #6190E8;
+}
+
+#setting .MuiTypography-body1 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+}

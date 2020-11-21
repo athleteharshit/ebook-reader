@@ -1,0 +1,19 @@
+#navtab .PrivateTabIndicator-colorPrimary-3 {
+    display: none !important;
+}
+
+#navtab .PrivateTabIndicator-colorPrimary-4 {
+    display: none !important;
+}
+
+#navtab .MuiSvgIcon-root {
+    font-size: 3rem !important;
+}
+
+#navtab .navtab_link {
+    transition: all 300ms;
+}
+
+#navtab .navtab_link:hover {
+    color:  #6190E8;
+}

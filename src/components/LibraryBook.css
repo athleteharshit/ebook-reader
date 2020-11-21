@@ -1,0 +1,87 @@
+.library {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.library .MuiSvgIcon-root {
+    font-size: 3rem;
+}
+
+.library .library_heading {
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.library_book {
+    display: flex;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.library_book::-webkit-scrollbar {
+    display: none;
+}
+
+.library_book .library_item {
+    object-fit: contain;
+    transition: 450ms;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 13rem;
+
+}
+
+.library_book .library_item:hover {
+    transform: scale(1.03);
+}
+
+.library_book .library_img {
+    display: flex;
+    height: 17rem;
+    max-height: 17rem;
+}
+
+.library_book .library_link {
+    display: inline-block;
+    display: flex;
+}
+
+.book .book_img img {
+}
+
+.library_book .library_book_btn {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    border: 1px solid #6190E8;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    transition: all 450ms;
+}
+
+.library_book .library_book_btn:hover {
+    background-color: #6190E8 ;
+    color: #fff;
+}
+
+
+.row_btn {
+    width: 100%;
+    display: inline-block;
+}
+

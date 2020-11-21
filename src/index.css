@@ -1,0 +1,48 @@
+/* global style  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,700&family=Roboto+Slab:wght@300;500;800&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Roboto Slab', serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-size: inherit;
+  font-weight: 300;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 1.8rem;
+  background: #6190E8 ;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 520px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  html {
+    font-size: 40%;
+  }
+}

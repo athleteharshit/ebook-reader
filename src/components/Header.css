@@ -1,0 +1,40 @@
+.header {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* .header_link {
+    width: 5rem;
+    height: 5rem;
+} */
+
+.header_logo {
+    width: 10rem;
+    height: 9rem;
+    filter: drop-shadow(0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5));
+}
+
+.header_text {
+    margin-left: 1.5rem;
+}
+
+.header_text .header_heading {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0.2rem 0.3rem 0.8rem rgba(84, 80, 80, 0.4);
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+}
+
+.header_text .header_subheading {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: rgb(235, 227, 219);
+    font-family: 'Lora', serif;
+    margin-bottom: 0;
+}
